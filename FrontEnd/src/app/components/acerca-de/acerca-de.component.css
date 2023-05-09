@@ -1,0 +1,46 @@
+.row{
+padding: 20px;
+}
+div{
+    background-color: pink;
+    text-align: center;
+}
+
+/*etiqueta nombbre*/
+
+#nombre{
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 10px;
+}
+#acercademi{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*estilo de la foto de perfil*/
+
+@media (min-width: 576px){
+    #fotodeperfil{
+position: absolute;
+width: 15%;
+border-radius: 100%;
+box-shadow: 3px 3px 3px plum;
+left: 4%;
+top: 600px;
+    }
+    }
+
+ @media (max-width: 576px){
+    #fotodeperfil{
+position: absolute;
+width: 30%;
+border-radius: 100%;
+box-shadow: 3px 3px 3px plum;
+left: 35%;
+top: 980px;
+   }
+   #nombre {
+  margin-top: 15%;
+    }
+   }
